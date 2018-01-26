@@ -19,6 +19,8 @@
 
 [site 3 that i dont use enough](http://reddit.com)
 
+---
 
 [site reference - github guide](https://guides.github.com/features/mastering-markdown/)
+
 [emoji reference](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
