@@ -1,4 +1,4 @@
-# :thumbsup: Week 1 Readme :thumbsup:
+# :fire: Week 1 Readme :fire:
 
 
 ## sites that i use too much :hocho:
