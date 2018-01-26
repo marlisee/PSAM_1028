@@ -2,7 +2,7 @@
 Web Design Basics Class @ Parsons 2018 Fall
 
 
-:cherry_blossom: Marlise Chu :cherry_blossom:
+:star: Marlise Chu :star:
 ## Design Technology - Game Design, Junior 
 
 ---
