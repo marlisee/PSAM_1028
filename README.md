@@ -1,4 +1,4 @@
-# WebDesignBasics
+# Web Design Basics
 Web Design Basics Class @ Parsons 2018 Fall
 
 Marlise Chu 
