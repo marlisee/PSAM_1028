@@ -59,3 +59,27 @@ undefined
 myAgeinSeconds
 630720000
 ```
+## and Booleans
+
+```ruby
+var isAlive = true
+undefined
+var isDead = true
+undefined
+var redEvilEyes = false
+undefined
+var ableToSpeak = true 
+undefined
+isAlive
+true
+isAlive = false
+false
+isAlive
+false
+isAlive
+false
+var isAlive = true
+undefined
+"bread"
+"bread"
+```
