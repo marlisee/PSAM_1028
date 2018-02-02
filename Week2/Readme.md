@@ -59,7 +59,7 @@ undefined
 myAgeinSeconds
 630720000
 ```
-## and Booleans
+## and Booleans:
 
 ```ruby
 var isAlive = true
