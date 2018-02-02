@@ -1,7 +1,7 @@
 # :fire: Week 1 Readme :fire:
 
 
-### sites that i use too much :hocho:
+## sites that i use too much :hocho:
 
 [1.Reddit](http://reddit.com)
 ![](https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Reddit_logo_and_wordmark.svg/1200px-Reddit_logo_and_wordmark.svg.png)
@@ -14,7 +14,7 @@
 
 --- 
 
-### site that i should spend more time on :paperclip:
+## site that i should spend more time on :paperclip:
 
 [1.Unity Documentation](https://docs.unity3d.com/Manual/index.html)
 ![](https://i.imgur.com/dsjifmK.png)
