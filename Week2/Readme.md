@@ -1,7 +1,6 @@
 ## Week 2 Homework 
 
-```
-
+``` ruby
 var firstName = "Marlise"
 undefined
 firstName
@@ -24,4 +23,39 @@ var Monogram = firstLetterofFirstName + "" + firstLetterofMiddleName + "" + firs
 undefined
 Monogram
 "MYC"
+```
+
+## And then we did this: 
+
+``` ruby 
+var secsinAMin
+undefined
+var secsinAMin = 60
+undefined
+var minInAnHour = 60
+undefined
+secsinAnHour = secsinAMin + minInAnHour
+120
+secsinAnHour = secsinAMin * minInAnHour
+3600
+var hoursInADay = 24
+undefined
+var secsInADay = secsinAnHour * hoursInADay
+undefined
+secsInADay
+86400
+minInAnHour
+60
+var daysInAYear = 365
+undefined
+var secsInAYear = daysInAYear * secsInADay
+undefined
+secsInAYear
+31536000
+var myAge = 20
+undefined
+var myAgeinSeconds = myAge * secsInAYear
+undefined
+myAgeinSeconds
+630720000
 ```
