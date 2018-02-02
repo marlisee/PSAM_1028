@@ -4,6 +4,7 @@
 ## sites that i use too much :hocho:
 
 [site 1 that i use too much](http://reddit.com)
+![Text](https://guides.github.com/features/mastering-markdown)
 
 [site 2 that i use too much](http://facebook.com)
 
