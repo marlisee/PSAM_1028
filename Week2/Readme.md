@@ -1,18 +1,11 @@
 ## Week 2 Homework 
 
 ```
-var firstName
-undefined
-firstName
-undefined
+
 var firstName = "Marlise"
 undefined
 firstName
 "Marlise"
-middleName
-VM110:1 Uncaught ReferenceError: middleName is not defined
-    at <anonymous>:1:1
-(anonymous) @ VM110:1
 var middleName = "Yee"
 undefined
 middleName
