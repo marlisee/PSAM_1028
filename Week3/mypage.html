@@ -1,0 +1,31 @@
+ <!-- declare this as html  -->
+<!DOCTYPE html>
+<html>
+
+<head> 
+	<title> Wonky Horror Movie Title Generator </title>
+</head>
+
+<body> 
+<script type = "text/javascript">
+var locations = ["Classroom", "Basement", "Walk in Freezer", "Abandoned Building", "Hospital", "Asylum", "Nuclear Wasteland", "Hotel", "Shack", "Cabin", "Outer space"]
+var adjectives = ["Creepy", "Spooky", "Unexplained", "Unsettling", "Psychological", "Eerie", "Supernatural", "Mortifying", "Horror", "Dark"] 
+var timeOfDays = ["Night", "Dusk", "in the AM’s", "Midnight", "Post midnight", "Full Moon", "New Moon", "Darkness", "Faint glimmers of light", "Under the moonlight"]
+
+var randomLocations = locations[Math.floor(Math.random() * 10)] 
+var randomAdjectives = adjectives[Math.floor(Math.random() * 10)] 
+var randomTimeOfDays = timeOfDays[Math.floor(Math.random() * 10)] 
+
+var fullTitle = randomAdjectives + " " + randomTimeOfDays + " in the " + randomLocations
+
+console.log(fullTitle)
+
+</script>
+
+<!-- <p> This is the body 😊</p>
+ --><h1> Welcome 😊 look at the console for wonky horror name!</h1>
+
+<!-- <h4> Smallest Header 😊</h4>
+ --></body>
+
+</html>
