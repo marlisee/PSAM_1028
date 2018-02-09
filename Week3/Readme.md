@@ -11,10 +11,7 @@ colorArray.unshift("Purple")
 colorArray
 (5) ["Purple", "Yellow", "Red", "Green", "Blue"]0: "Purple"1: "Yellow"2: "Red"3: "Green"4: "Blue"length: 5__proto__: Array(0)
 
-colorArray.pop
-ƒ pop() { [native code] }
-colorArray
-(5) ["Purple", "Yellow", "Red", "Green", "Blue"]
+
 colorArray.pop()
 "Blue"
 colorArray
