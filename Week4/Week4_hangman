@@ -56,7 +56,7 @@ while (remainingLetters > 0 && guesses > 0){
 					// guesses --; 
 				}
 			}
-		}q
+		}
 	}
 
 	//game loop ends
