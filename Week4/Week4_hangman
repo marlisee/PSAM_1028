@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Hangman, The Guessing Game for cocktail names with one word</title>
+</head>
+<body>
+	<script type = "text/javascript">
+
+//create an array of words 
+var words = ["martini", "margarita", "mojito", "daiquiri", "bellini", "spritzer"]
+
+//pick a random word 
+var word = words[Math.floor(Math.random() * words.length)]
+
+//amount of guesses
+var guesses = 10
+
+console.log("random word is: " + word)
+
+//set up the answer array, start with empty array 
+var answerArray = [] 
+
+for(var i = 0; i < word.length; i++){
+answerArray[i] = "_"
+}
+
+var remainingLetters = word.length
+
+//The game loop 
+while (remainingLetters > 0 && guesses > 0){
+//show the player their progress or state
+	console.log("answerArray1 = " + answerArray)
+	console.log("word.length = " + word.length)
+	console.log("remaining Letters = " + remainingLetters)
+	console.log("remaining guesses = " + guesses)
+	console.log("guess input =" + guess)
+	// if()
+
+		alert(answerArray.join(" "))
+		//Get a guess from the player 
+		var guess = prompt("Guess a letter, or click cancel to stop playing. " + "Remaining guesses: " + guesses)
+		if(guesses === 0){
+			break
+		}
+		if(guess === null){
+			break
+		}else if (guess.length !== 1){
+			alert("please enter a single letter.")
+		}else{
+			guesses--;
+			guess = guess.toLowerCase()
+			for(var j = 0; j < word.length; j++){
+				if(word[j] === guess){
+					answerArray[j] = guess; 
+					remainingLetters--;
+					// guesses --; 
+				}
+			}
+		}
+	}
+
+	//game loop ends
+	if(remainingLetters == 0 && guesses > 0){
+		//show answer and congratulate the player 
+		alert(answerArray.join(" "))
+		alert("Good job! You guessed: " + word)
+	}
+
+	if(guesses == 0){
+	alert("Game over! You ran out of lives.")
+	}
+
+
+	</script> 
+	</body>
+	</html>
